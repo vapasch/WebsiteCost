@@ -1,0 +1,39 @@
+#AnchorPane1{
+    -fx-background-color: linear-gradient(to bottom right, #f5f7fa, #e4e8f0);
+}
+
+#AnchorPane2{
+    -fx-background-color: white;
+}
+
+#AnchorPane3{
+    -fx-background-color: white;
+}
+
+ComboBox{
+    -fx-font-size: 16px;
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+}
+
+
+#synthshshcheckid{
+    -fx-background-color: white;    
+}
+
+#ypologismos_kostologioy{
+    -fx-background-color: white;   
+}
+
+#emfanishtimhsid{
+    -fx-background-color: white;
+}
+
+/* Mesa shn lisa */
+.list-view .list-cell {
+    -fx-font-size: 17px;
+}
+
+button{
+
+}

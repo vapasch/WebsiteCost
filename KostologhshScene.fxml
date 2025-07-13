@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="806.0" prefWidth="1228.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="KostologhshController">
+   <children>
+      <AnchorPane fx:id="AnchorPane2" layoutX="103.0" layoutY="127.0" prefHeight="458.0" prefWidth="335.0">
+         <children>
+            
+            <ComboBox fx:id="glwssescomboid" layoutX="143.0" layoutY="196.0" prefHeight="43.0" prefWidth="171.0" />
+            
+            <Button fx:id="ypologismostimhsid" layoutX="82.0" layoutY="359.0" mnemonicParsing="false" onAction="#ypologismos_kostologioy" prefHeight="43.0" prefWidth="171.0" text="Υπολογισμός Τιμής">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            
+            <CheckBox fx:id="synthshshcheckid" layoutX="65.0" layoutY="281.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="206.0" text="Συντήρηση ενός έτους">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </CheckBox>
+            
+            <Label layoutX="38.0" layoutY="46.0" text="Τύπος">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            
+            <ComboBox fx:id="typoscomboid" layoutX="143.0" layoutY="40.0" prefHeight="43.0" prefWidth="171.0" />
+            
+            <Label layoutX="37.0" layoutY="126.0" prefHeight="32.0" prefWidth="75.0" text="Design">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            
+            <Label layoutX="32.0" layoutY="208.0" prefHeight="32.0" prefWidth="85.0" text="Γλώσσες">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            
+            <ComboBox fx:id="designcomboid" layoutX="143.0" layoutY="120.0" prefHeight="43.0" prefWidth="171.0" />
+            
+            <Label fx:id="emfanishtimhsid" alignment="CENTER" layoutX="115.0" layoutY="402.0" prefHeight="32.0" prefWidth="106.0" text="0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="AnchorPane3" layoutX="493.0" layoutY="113.0" prefHeight="485.0" prefWidth="705.0">
+         <children>
+            <ListView fx:id="listaid" layoutX="35.0" layoutY="59.0" prefHeight="368.0" prefWidth="636.0" />
+            <Button fx:id="editid" layoutX="216.0" layoutY="432.0" mnemonicParsing="false" onAction="#editLista" text="Επεξεργασία">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="delid" layoutX="406.0" layoutY="432.0" mnemonicParsing="false" onAction="#delLista" text="Διαγραφή">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="279.0" layoutY="3.0" prefHeight="43.0" prefWidth="186.0" text="Λίστα Κοστολογίων">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
